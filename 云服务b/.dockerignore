@@ -1,0 +1,79 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+PIPFILE.lock
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Documentation
+*.md
+README*
+
+# Test files
+test_*.py
+*_test.py
+tests/
+
+# Logs
+*.log
+logs/
+
+# Client folder (not needed in container)
+client/
+client.zip
+
+# Other assignment files
+*.pdf
+*.zip
+作业要求.txt
+云服务a/
+
+# Test images (keep only model files)
+test_*.jpg
+bus.jpg
+model3-yolol/bus.jpg
+model3-yolol/test.jpg
+model3-yolol/test_with_keypoints.jpg
+model3-yolol/pose-detection.py
+model3-yolol/requirements.txt
